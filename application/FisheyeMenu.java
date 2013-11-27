@@ -173,7 +173,7 @@ public class FisheyeMenu extends Display {
  
 			String sCurrentLine;
  
-			br = new BufferedReader(new FileReader("/Users/Derrick/Documents/Programming/Java/ISPrototype/WHO.csv"));
+			br = new BufferedReader(new FileReader("WHO.csv"));
 			br.readLine();
 			
 			while ((sCurrentLine = br.readLine()) != null) {
