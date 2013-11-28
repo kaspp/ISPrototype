@@ -1,5 +1,3 @@
-
-
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
@@ -42,11 +40,11 @@ import prefuse.data.io.DelimitedTextTableReader;
 import prefuse.data.query.ListQueryBinding;
 import prefuse.data.query.RangeQueryBinding;
 import prefuse.data.query.SearchQueryBinding;
+import prefuse.render.AbstractShapeRenderer;
 import prefuse.render.AxisRenderer;
 import prefuse.render.Renderer;
 import prefuse.render.RendererFactory;
 import prefuse.render.ShapeRenderer;
-import prefuse.render.AbstractShapeRenderer;
 import prefuse.util.ColorLib;
 import prefuse.util.FontLib;
 import prefuse.util.UpdateListener;
@@ -73,16 +71,17 @@ public class Congress extends JPanel {
     }
     
     public static JFrame demo() {
-        // load the data
+
         Table t = null;
         try {
-            t = new DelimitedTextTableReader().readTable("fec.txt");
+        	//change the path here.
+            t = new DelimitedTextTableReader().readTable("/Users/Derrick/Documents/Programming/Java/ISPrototype/ISPrototype/WHOCountryGDP.txt"); 
         } catch ( Exception e ) {
             e.printStackTrace();
             System.exit(1);
         }
-        
-        JFrame frame = new JFrame((char)0x00a2+" o n g r e s s");
+        // change the title here. 
+        JFrame frame = new JFrame("G  D  P  2  0  1  1");
         frame.setContentPane(new Congress(t));
         frame.pack();
         return frame;
@@ -90,14 +89,15 @@ public class Congress extends JPanel {
     
     // ------------------------------------------------------------------------
     
-    private static final String TOTAL_RECEIPTS = "Total Receipts";
-    private static final String RECEIPTS = "Total Receipts";
+    //this is the main field for the GDP Value
+    private static final String TOTAL_RECEIPTS = "GDP";
+    private static final String RECEIPTS = "GDP";
     
-    private String m_title = (char)0x00a2+"ongress";
+    private String m_title = "Congress";
     private String m_totalStr;
     private double m_totalMoney = 1000000000;
     private int m_totalPeople = 10000;
-    private JFastLabel m_total = new JFastLabel(m_totalPeople+" Candidates: "+m_totalMoney);
+    private JFastLabel m_total = new JFastLabel(m_totalPeople+" Country: "+m_totalMoney);
     private JFastLabel m_details;
     
     private Visualization m_vis;
@@ -109,28 +109,23 @@ public class Congress extends JPanel {
     public Congress(Table t) {
         super(new BorderLayout());
         
-        // --------------------------------------------------------------------
-        // STEP 1: setup the visualized data
-        
         final Visualization vis = new Visualization();
         m_vis = vis;
         
-        final String group = "by_state";
+        final String group = "Country";
 
-        // filter to show only candidates receiving more than $100,000
+        
+        //the minimum amount of GDP to be displayed.
         Predicate p = (Predicate)
             ExpressionParser.parse("["+TOTAL_RECEIPTS+"] >= 100000"); 
         VisualTable vt = vis.addTable(group, t, p);
-        
-        // add a new column containing a label string showing
-        // candidate name, party, state, year, and total receipts
-        vt.addColumn("label", "CONCAT(CAP(Candidate), ' (', "
-                + "CAP([Party Designation]), '-', [State Code], "
-                + "') ', Year, ': $', FORMAT([Total Receipts],2))");
-
-        // add calculation for senators
-        vt.addColumn("Senate", "District <= 0");       
                 
+        //the display on the top right hand corner of the display. Put the name of the column.
+        vt.addColumn("label", "CONCAT(CAP(Country), ' (', "
+                + "CAP([NOC]), '-', [Country], "
+                + "') ', ': $', FORMAT([GDP],2))");
+
+        
         vis.setRendererFactory(new RendererFactory() {
             AbstractShapeRenderer sr = new ShapeRenderer();
             Renderer arY = new AxisRenderer(Constants.RIGHT, Constants.TOP);
@@ -142,21 +137,23 @@ public class Congress extends JPanel {
             }
         });
         
-        // --------------------------------------------------------------------
-        // STEP 2: create actions to process the visual data
-
-        // set up dynamic queries, search set
+        // this will check for all the value. just change the last value. 
+        // this is the range value.
         RangeQueryBinding  receiptsQ = new RangeQueryBinding(vt, RECEIPTS);
-        ListQueryBinding   yearsQ    = new ListQueryBinding(vt, "Year");
-        SearchQueryBinding searchQ   = new SearchQueryBinding(vt, "Candidate");
+        // this is at the bottom of the value. if there is more than one type of graph, use this.
+        // i commented because there is no use for this graph.
+        //ListQueryBinding   yearsQ    = new ListQueryBinding(vt, "Country");
+        // The value to use to search. 
+        SearchQueryBinding searchQ   = new SearchQueryBinding(vt, "Country");
         
-        // construct the filtering predicate
+       
         AndPredicate filter = new AndPredicate(searchQ.getPredicate());
-        filter.add(yearsQ.getPredicate());
+       //remove this if you activate the yearsQ
+        //filter.add(yearsQ.getPredicate());
         filter.add(receiptsQ.getPredicate());
         
-        // set up the actions
-        AxisLayout xaxis = new AxisLayout(group, "State Code",
+        // set up the x axis and y axis.
+        AxisLayout xaxis = new AxisLayout(group, "NOC",
                 Constants.X_AXIS, VisiblePredicate.TRUE); 
         AxisLayout yaxis = new AxisLayout(group, RECEIPTS,
                 Constants.Y_AXIS, VisiblePredicate.TRUE);
@@ -180,7 +177,9 @@ public class Congress extends JPanel {
             ColorLib.rgb(150,150,255), ColorLib.rgb(255,150,150),
             ColorLib.rgb(180,180,180)
         };
-        DataColorAction color = new DataColorAction(group, "Party",
+        
+        // set the value of this "GDP"
+        DataColorAction color = new DataColorAction(group, "GDP",
                 Constants.ORDINAL, VisualItem.STROKECOLOR, palette);
         
         int[] shapes = new int[]
@@ -294,7 +293,7 @@ public class Congress extends JPanel {
         radioBox.add(searcher);
         radioBox.add(Box.createHorizontalGlue());
         radioBox.add(Box.createHorizontalStrut(5));
-        radioBox.add(yearsQ.createRadioGroup());
+        //radioBox.add(yearsQ.createRadioGroup());
         radioBox.add(Box.createHorizontalStrut(16));
         
         JRangeSlider slider = receiptsQ.createVerticalRangeSlider();
