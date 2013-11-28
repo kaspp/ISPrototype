@@ -75,7 +75,7 @@ public class Congress extends JPanel {
         Table t = null;
         try {
         	//change the path here.
-            t = new DelimitedTextTableReader().readTable("/Users/Derrick/Documents/Programming/Java/ISPrototype/ISPrototype/WHOCountryGDP.txt"); 
+            t = new DelimitedTextTableReader().readTable("WHOCountryGDP.txt"); 
         } catch ( Exception e ) {
             e.printStackTrace();
             System.exit(1);
