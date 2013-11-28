@@ -2,13 +2,13 @@ Country	GDP2011
 Afghanistan	20343461030.00
 Albania	12959563902.00
 Algeria	188681000000.00
-American Samoa	
+American Samoa	0.00
 Andorra	3491000000.00
 Angola	100990000000.00
 Antigua and Barbuda	1128708617.00
 Argentina	445989000000.00
 Armenia	10247788877.00
-Aruba	
+Aruba	0.00
 Australia	1371760000000.00
 Austria	418484000000.00
 Azerbaijan	63403650746.00
@@ -26,37 +26,37 @@ Bolivia	24426829466.00
 Bosnia and Herzegovina	18088238053.00
 Botswana	17627441191.00
 Brazil	2476650000000.00
-British Virgin Islands	
-Brunei	
+British Virgin Islands	0.00
+Brunei	0.00
 Bulgaria	53514098360.00
 Burkina Faso	10187211704.00
-Burma	
+Burma	0.00
 Burundi	2325972144.00
 Cambodia	12875310959.00
 Cameroon	25464850391.00
 Canada	1736050000000.00
 Cape Verde	1901136230.00
-Cayman Islands	
+Cayman Islands	0.00
 Central African Republic	2165868600.00
 Chad	9485741541.00
 Chile	248585000000.00
 China	7298100000000.00
 Colombia	331655000000.00
 Comoros	610114091.70
-Congo-Brazzaville	
+Congo-Brazzaville	0.00
 Cook Islands	248000000.00
 Costa Rica	41006959585.00
-Cote d'Ivoire	
+Cote d'Ivoire	0.00
 Croatia	63850068202.00
 Cuba	64100000000.00
 Cyprus	24689602446.00
 Czech Republic	215215000000.00
-Democratic Republic of Congo	
+Democratic Republic of Congo	0.00
 Denmark	332677000000.00
 Djibouti	1140000000.00
 Dominica	482277143.10
 Dominican Republic	55611245616.00
-East Timor	
+East Timor	0.00
 Ecuador	67002768302.00
 Egypt	229531000000.00
 El Salvador	23054100000.00
@@ -67,7 +67,7 @@ Ethiopia	31708848033.00
 Fiji	3812749216.00
 Finland	266071000000.00
 France	2773030000000.00
-French Polynesia	
+French Polynesia	0.00
 Gabon	17051616749.00
 Gambia	1109306596.00
 Georgia	14366566609.00
@@ -75,24 +75,24 @@ Germany	3570560000000.00
 Ghana	39199656051.00
 Greece	298734000000.00
 Grenada	816054092.20
-Guam	
+Guam	0.00
 Guatemala	46900000257.00
 Guinea	5131221608.00
 Guinea-Bissau	973427456.50
 Guyana	2260000000.00
 Haiti	7346156703.00
 Honduras	17259407972.00
-Hong Kong	
+Hong Kong	0.00
 Hungary	140029000000.00
 Iceland	14059073613.00
 India	1847980000000.00
 Indonesia	846832000000.00
-Iran	
+Iran	0.00
 Iraq	115388000000.00
 Ireland	217275000000.00
 Israel	242929000000.00
 Italy	2194750000000.00
-Ivory Coast	
+Ivory Coast	0.00
 Jamaica	15069767442.00
 Japan	5867150000000.00
 Jordan	28840197019.00
@@ -101,16 +101,16 @@ Kenya	33620684016.00
 Kiribati	177960936.90
 Kuwait	176590000000.00
 Kyrgyzstan	5918610958.00
-Laos	
+Laos	0.00
 Latvia	28252498853.00
 Lebanon	42185230768.00
 Lesotho	2426200017.00
 Liberia	1161000000.00
-Libya	
-Liechtenstein	
+Libya	0.00
+Liechtenstein	0.00
 Lithuania	42725404055.00
 Luxembourg	59474583333.00
-Macau	
+Macau	0.00
 Macedonia	10165373218.00
 Madagascar	9946995390.00
 Malawi	5700383783.00
@@ -122,31 +122,31 @@ Marshall Islands	173700000.00
 Mauritania	4075675053.00
 Mauritius	11313454891.00
 Mexico	1155320000000.00
-Micronesia	
+Micronesia	0.00
 Moldova	7000318677.00
 Monaco	5424000000.00
 Mongolia	8557529910.00
 Montenegro	4550463278.00
 Morocco	100221000000.00
 Mozambique	12797754231.00
-Myanmar	
+Myanmar	0.00
 Namibia	12300698895.00
 Nauru	63000000.00
 Nepal	18884495628.00
 Netherlands	836257000000.00
-Netherlands Antilles	
-New Caledonia	
+Netherlands Antilles	0.00
+New Caledonia	0.00
 New Zealand	141406000000.00
 Nicaragua	7297481501.00
 Niger	6016960988.00
 Nigeria	235923000000.00
-Niue	
-North Korea	
+Niue	0.00
+North Korea	0.00
 Norway	485803000000.00
 Oman	71781535039.00
 Pakistan	211092000000.00
 Palau	179912815.90
-Palestine	
+Palestine	0.00
 Panama	30676800000.00
 Papua New Guinea	12937183216.00
 Paraguay	23877089240.00
@@ -176,11 +176,11 @@ Slovenia	49539271105.00
 Solomon Islands	838022104.90
 Somalia	1071000000.00
 South Africa	408237000000.00
-South Korea	
+South Korea	0.00
 Spain	1490810000000.00
 Sri Lanka	59172135299.00
 Sudan	55097394769.00
-Surinam	
+Surinam	0.00
 Swaziland	3977754360.00
 Sweden	538131000000.00
 Switzerland	635650000000.00
@@ -189,7 +189,7 @@ Taiwan	876035000000.00
 Tajikistan	6522200291.00
 Tanzania	23705302063.00
 Thailand	345649000000.00
-Timor-Leste	
+Timor-Leste	0.00
 Togo	3594513925.00
 Tonga	435589199.60
 Trinidad and Tobago	22483115868.00
@@ -198,17 +198,17 @@ Turkey	773091000000.00
 Turkmenistan	24107017544.00
 Tuvalu	35784426.83
 Uganda	16809623489.00
-UK	
+UK	0.00
 Ukraine	165245000000.00
 United Arab Emirates	360245000000.00
 Uruguay	46709797684.00
-US	
+US	0.00
 Uzbekistan	45359432355.00
 Vanuatu	819227088.40
 Venezuela	316482000000.00
 Vietnam	123961000000.00
-Virgin Islands	
-West Bank and Gaza	
+Virgin Islands	0.00
+West Bank and Gaza	0.00
 Yemen	33757503322.00
 Zambia	19206011889.00
 Zimbabwe	9900000000.00
