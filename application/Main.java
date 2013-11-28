@@ -1,9 +1,11 @@
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.LinkedHashMap;
-import java.util.Map;
+import java.awt.BorderLayout;
+import java.awt.FlowLayout;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+import prefuse.data.Table;
+import prefuse.data.io.DelimitedTextTableReader;
 
 
 public class Main {
@@ -13,7 +15,7 @@ public class Main {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		ArrayList<String> keys = new ArrayList<String>();
+		/*ArrayList<String> keys = new ArrayList<String>();
 		Map <String, ArrayList<String>> details = new LinkedHashMap<String, ArrayList<String>>();
 		BufferedReader br = null;
 		 
@@ -43,8 +45,36 @@ public class Main {
 		
 		for (String key : keys) {
 			System.out.println("Country: " + key);
-		}
+		}*/
+		
+		JFrame frame = new JFrame();
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setLayout(new FlowLayout());
 
+		JPanel panel = new JPanel(new BorderLayout());
+
+		FisheyeMenu fem = FisheyeMenu.demo();
+		panel.add(fem);
+
+		JPanel panel2 = new JPanel(new BorderLayout());
+		panel2.add(getCongress());
+
+		frame.add(panel);
+		frame.add(panel2);
+
+		frame.pack();
+		frame.setVisible(true);
 	}
 
+	public static Congress getCongress() {
+		Table t = null;
+		try {
+			t = new DelimitedTextTableReader().readTable("fec.txt");
+		} catch ( Exception e ) {
+			e.printStackTrace();
+			System.exit(1);
+		}
+
+		return new Congress(t);
+	}
 }
