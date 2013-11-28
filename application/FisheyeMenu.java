@@ -75,8 +75,8 @@ public class FisheyeMenu extends Display {
     
     private Table m_items = ITEM_SCHEMA.instantiate(); // table of menu items
     
-    private double m_maxHeight = 500; // maximum menu height in pixels
-    private double m_scale = 7;       // scale parameter for fisheye distortion
+    private double m_maxHeight = 1024; // maximum menu height in pixels
+    private double m_scale = 10;       // scale parameter for fisheye distortion
     
     /**
      * Create a new, empty FisheyeMenu.
@@ -94,7 +94,7 @@ public class FisheyeMenu extends Display {
         m_vis.setRendererFactory(new DefaultRendererFactory(renderer));
         
         // set up this display
-        setSize(100,470);
+        setSize(400,1024);
         setHighQuality(true);
         setBorder(BorderFactory.createEmptyBorder(10,10,10,5));
         addControlListener(new ControlAdapter() {
