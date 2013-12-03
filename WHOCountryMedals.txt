@@ -1,214 +1,1 @@
-Country	NOC	ISO	Bronze	Silver	Gold	Total Modals
-Afghanistan	AFG	AFG	1	0	0	1
-Albania	ALB	ALB	0	0	0	0
-Algeria	ALG	DZA	0	0	1	1
-American Samoa			0	0	0	0
-Andorra	AND	AND	0	0	0	0
-Angola	ANG	AGO	0	0	0	0
-Antigua and Barbuda	ANT	ATG	0	0	0	0
-Argentina	ARG	ARG	2	1	1	4
-Armenia	ARM	ARM	2	1	0	3
-Aruba			0	0	0	0
-Australia	AUS	AUS	12	16	7	35
-Austria	AUT	AUT	0	0	0	0
-Azerbaijan	AZE	AZE	6	2	2	10
-Bahamas	BAH	BHS	0	0	1	1
-Bahrain	BRN	BHR	1	0	0	1
-Bangladesh	BAN	BGD	0	0	0	0
-Barbados	BAR	BRB	0	0	0	0
-Belarus	BLR	BLR	5	5	2	12
-Belgium	BEL	BEL	2	1	0	3
-Belize	BIZ	BLZ	0	0	0	0
-Benin	BEN	BEN	0	0	0	0
-Bermuda	BER	BMU	0	0	0	0
-Bhutan	BHU	BTN	0	0	0	0
-Bolivia	BOL	BOL	0	0	0	0
-Bosnia and Herzegovina	BIH	BIH	0	0	0	0
-Botswana	BOT	BWA	0	1	0	1
-Brazil	BRA	BRA	9	5	3	17
-British Virgin Islands			0	0	0	0
-Brunei			0	0	0	0
-Bulgaria	BUL	BGR	1	1	0	2
-Burkina Faso	BUR	BFA	0	0	0	0
-Burma			0	0	0	0
-Burundi	BDI	BDI	0	0	0	0
-Cambodia	CAM	KHM	0	0	0	0
-Cameroon	CMR	CMR	0	0	0	0
-Canada	CAN	CAN	12	5	1	18
-Cape Verde	CPV	CPV	0	0	0	0
-Cayman Islands			0	0	0	0
-Central African Republic	CAF	CAF	0	0	0	0
-Chad	CHA	TCD	0	0	0	0
-Chile	CHI	CHL	0	0	0	0
-China	CHN	CHN	23	27	38	88
-Colombia	COL	COL	4	3	1	8
-Comoros	COM	COM	0	0	0	0
-Congo-Brazzaville			0	0	0	0
-Cook Islands	COK	COK	0	0	0	0
-Costa Rica	CRC	CRI	0	0	0	0
-Cote d'Ivoire			0	0	0	0
-Croatia	CRO	HRV	2	1	3	6
-Cuba	CUB	CUB	6	3	5	14
-Cyprus	CYP	CYP	0	1	0	1
-Czech Republic	CZE	CZE	3	3	4	10
-Democratic Republic of Congo			0	0	0	0
-Denmark	DEN	DNK	3	4	2	9
-Djibouti	DJI	DJI	0	0	0	0
-Dominica	DMA	DMA	0	0	0	0
-Dominican Republic	DOM	DOM	0	1	1	2
-East Timor			0	0	0	0
-Ecuador	ECU	ECU	0	0	0	0
-Egypt	EGY	EGY	0	2	0	2
-El Salvador	ESA	SLV	0	0	0	0
-Equatorial Guinea	GEQ	GNQ	0	0	0	0
-Eritrea	ERI	ERI	0	0	0	0
-Estonia	EST	EST	1	1	0	2
-Ethiopia	ETH	ETH	3	1	3	7
-Fiji	FIJ	FJI	0	0	0	0
-Finland	FIN	FIN	2	1	0	3
-France	FRA	FRA	12	11	11	34
-French Polynesia			0	0	0	0
-Gabon	GAB	GAB	0	1	0	1
-Gambia	GAM	GMB	0	0	0	0
-Georgia	GEO	GEO	3	3	1	7
-Germany	GER	DEU	14	19	11	44
-Ghana	GHA	GHA	0	0	0	0
-Greece	GRE	GRC	2	0	0	2
-Grenada	GRN	GRD	0	0	1	1
-Guam			0	0	0	0
-Guatemala	GUA	GTM	0	1	0	1
-Guinea	GUI	GIN	0	0	0	0
-Guinea-Bissau	GBS	GNB	0	0	0	0
-Guyana	GUY	GUY	0	0	0	0
-Haiti	HAI	HTI	0	0	0	0
-Honduras	HON	HND	0	0	0	0
-Hong Kong			0	0	0	0
-Hungary	HUN	HUN	5	4	8	17
-Iceland	ISL	ISL	0	0	0	0
-India	IND	IND	4	2	0	6
-Indonesia	INA	IDN	1	1	0	2
-Iran			0	0	0	0
-Iraq	IRQ	IRQ	0	0	0	0
-Ireland	IRL	IRL	3	1	1	5
-Israel	ISR	ISR	0	0	0	0
-Italy	ITA	ITA	11	9	8	28
-Ivory Coast			0	0	0	0
-Jamaica	JAM	JAM	4	4	4	12
-Japan	JPN	JPN	17	14	7	38
-Jordan	JOR	JOR	0	0	0	0
-Kazakhstan	KAZ	KAZ	5	1	7	13
-Kenya	KEN	KEN	5	4	2	11
-Kiribati	KIR	KIR	0	0	0	0
-Kuwait	KUW	KWT	1	0	0	1
-Kyrgyzstan	KGZ	KGZ	0	0	0	0
-Laos			0	0	0	0
-Latvia	LAT	LVA	1	0	1	2
-Lebanon	LIB	LBN	0	0	0	0
-Lesotho	LES	LSO	0	0	0	0
-Liberia	LBR	LBR	0	0	0	0
-Libya			0	0	0	0
-Liechtenstein			0	0	0	0
-Lithuania	LTU	LTU	2	1	2	5
-Luxembourg	LUX	LUX	0	0	0	0
-Macau			0	0	0	0
-Macedonia	MKD	MKD	0	0	0	0
-Madagascar	MAD	MDG	0	0	0	0
-Malawi	MAW	MWI	0	0	0	0
-Malaysia	MAS	MYS	1	1	0	2
-Maldives	MDV	MDV	0	0	0	0
-Mali	MLI	MLI	0	0	0	0
-Malta	MLT	MLT	0	0	0	0
-Marshall Islands	MHL	MHL	0	0	0	0
-Mauritania	MTN	MRT	0	0	0	0
-Mauritius	MRI	MUS	0	0	0	0
-Mexico	MEX	MEX	3	3	1	7
-Micronesia			0	0	0	0
-Moldova	MDA	MDA	2	0	0	2
-Monaco	MON	MCO	0	0	0	0
-Mongolia	MGL	MNG	3	2	0	5
-Montenegro	MNE	MNE	0	1	0	1
-Morocco	MAR	MAR	1	0	0	1
-Mozambique	MOZ	MOZ	0	0	0	0
-Myanmar			0	0	0	0
-Namibia	NAM	NAM	0	0	0	0
-Nauru	NRU	NRU	0	0	0	0
-Nepal	NEP	NPL	0	0	0	0
-Netherlands	NED	NLD	8	6	6	20
-Netherlands Antilles			0	0	0	0
-New Caledonia			0	0	0	0
-New Zealand	NZL	NZL	5	2	6	13
-Nicaragua	NCA	NIC	0	0	0	0
-Niger	NIG	NER	0	0	0	0
-Nigeria	NGR	NGA	0	0	0	0
-Niue			0	0	0	0
-North Korea			0	0	0	0
-Norway	NOR	NOR	1	1	2	4
-Oman	OMA	OMN	0	0	0	0
-Pakistan	PAK	PAK	0	0	0	0
-Palau	PLW	PLW	0	0	0	0
-Palestine			0	0	0	0
-Panama	PAN	PAN	0	0	0	0
-Papua New Guinea	PNG	PNG	0	0	0	0
-Paraguay	PAR	PRY	0	0	0	0
-Peru	PER	PER	0	0	0	0
-Philippines	PHI	PHL	0	0	0	0
-Poland	POL	POL	6	2	2	10
-Portugal	POR	PRT	0	1	0	1
-Puerto Rico	PUR	PRI	1	1	0	2
-Qatar	QAT	QAT	2	0	0	2
-Romania	ROU	ROU	2	5	2	9
-Russia	RUS	RUS	32	26	24	82
-Rwanda	RWA	RWA	0	0	0	0
-Saint Kitts and Nevis	SKN	KNA	0	0	0	0
-Saint Lucia	LCA	LCA	0	0	0	0
-Saint Vincent and the Grenadines	VIN	VCT	0	0	0	0
-Samoa	SAM	WSM	0	0	0	0
-San Marino	SMR	SMR	0	0	0	0
-Sao Tome and Principe	STP	STP	0	0	0	0
-Saudi Arabia	KSA	SAU	1	0	0	1
-Senegal	SEN	SEN	0	0	0	0
-Serbia	SRB	SRB	2	1	1	4
-Seychelles	SEY	SYC	0	0	0	0
-Sierra Leone	SLE	SLE	0	0	0	0
-Singapore	SIN	SGP	2	0	0	2
-Slovakia	SVK	SVK	3	1	0	4
-Slovenia	SLO	SVN	2	1	1	4
-Solomon Islands	SOL	SLB	0	0	0	0
-Somalia	SOM	SOM	0	0	0	0
-South Africa	RSA	ZAF	1	2	3	6
-South Korea			0	0	0	0
-Spain	ESP	ESP	4	10	3	17
-Sri Lanka	SRI	LKA	0	0	0	0
-Sudan	SUD	SDN	0	0	0	0
-Surinam			0	0	0	0
-Swaziland	SWZ	SWZ	0	0	0	0
-Sweden	SWE	SWE	3	4	1	8
-Switzerland	SUI	CHE	0	2	2	4
-Syria	SYR	SYR	0	0	0	0
-Taiwan	TPE	TWN	1	1	0	2
-Tajikistan	TJK	TJK	1	0	0	1
-Tanzania	TAN	TZA	0	0	0	0
-Thailand	THA	THA	1	2	0	3
-Timor-Leste			0	0	0	0
-Togo	TOG	TGO	0	0	0	0
-Tonga	TGA	TON	0	0	0	0
-Trinidad and Tobago	TRI	TTO	3	0	1	4
-Tunisia	TUN	TUN	1	1	1	3
-Turkey	TUR	TUR	1	2	2	5
-Turkmenistan	TKM	TKM	0	0	0	0
-Tuvalu	TUV	TUV	0	0	0	0
-Uganda	UGA	UGA	0	0	1	1
-UK			0	0	0	0
-Ukraine	UKR	UKR	9	5	6	20
-United Arab Emirates	UAE	ARE	0	0	0	0
-Uruguay	URU	URY	0	0	0	0
-US			0	0	0	0
-Uzbekistan	UZB	UZB	3	0	1	4
-Vanuatu	VAN	VUT	0	0	0	0
-Venezuela	VEN	VEN	0	0	1	1
-Vietnam	VIE	VNM	0	0	0	0
-Virgin Islands			0	0	0	0
-West Bank and Gaza			0	0	0	0
-Yemen	YEM	YEM	0	0	0	0
-Zambia	ZAM	ZMB	0	0	0	0
-Zimbabwe	ZIM	ZWE	0	0	0	0
+Country	NOC	ISO	Bronze	Silver	Gold	TotalMedalsAfghanistan	AFG	AFG	1	0	0	1Albania	ALB	ALB	0	0	0	0Algeria	ALG	DZA	0	0	1	1American Samoa			0	0	0	0Andorra	AND	AND	0	0	0	0Angola	ANG	AGO	0	0	0	0Antigua and Barbuda	ANT	ATG	0	0	0	0Argentina	ARG	ARG	2	1	1	4Armenia	ARM	ARM	2	1	0	3Aruba			0	0	0	0Australia	AUS	AUS	12	16	7	35Austria	AUT	AUT	0	0	0	0Azerbaijan	AZE	AZE	6	2	2	10Bahamas	BAH	BHS	0	0	1	1Bahrain	BRN	BHR	1	0	0	1Bangladesh	BAN	BGD	0	0	0	0Barbados	BAR	BRB	0	0	0	0Belarus	BLR	BLR	5	5	2	12Belgium	BEL	BEL	2	1	0	3Belize	BIZ	BLZ	0	0	0	0Benin	BEN	BEN	0	0	0	0Bermuda	BER	BMU	0	0	0	0Bhutan	BHU	BTN	0	0	0	0Bolivia	BOL	BOL	0	0	0	0Bosnia and Herzegovina	BIH	BIH	0	0	0	0Botswana	BOT	BWA	0	1	0	1Brazil	BRA	BRA	9	5	3	17British Virgin Islands			0	0	0	0Brunei			0	0	0	0Bulgaria	BUL	BGR	1	1	0	2Burkina Faso	BUR	BFA	0	0	0	0Burma			0	0	0	0Burundi	BDI	BDI	0	0	0	0Cambodia	CAM	KHM	0	0	0	0Cameroon	CMR	CMR	0	0	0	0Canada	CAN	CAN	12	5	1	18Cape Verde	CPV	CPV	0	0	0	0Cayman Islands			0	0	0	0Central African Republic	CAF	CAF	0	0	0	0Chad	CHA	TCD	0	0	0	0Chile	CHI	CHL	0	0	0	0China	CHN	CHN	23	27	38	88Colombia	COL	COL	4	3	1	8Comoros	COM	COM	0	0	0	0Congo-Brazzaville			0	0	0	0Cook Islands	COK	COK	0	0	0	0Costa Rica	CRC	CRI	0	0	0	0Cote d'Ivoire			0	0	0	0Croatia	CRO	HRV	2	1	3	6Cuba	CUB	CUB	6	3	5	14Cyprus	CYP	CYP	0	1	0	1Czech Republic	CZE	CZE	3	3	4	10Democratic Republic of Congo			0	0	0	0Denmark	DEN	DNK	3	4	2	9Djibouti	DJI	DJI	0	0	0	0Dominica	DMA	DMA	0	0	0	0Dominican Republic	DOM	DOM	0	1	1	2East Timor			0	0	0	0Ecuador	ECU	ECU	0	0	0	0Egypt	EGY	EGY	0	2	0	2El Salvador	ESA	SLV	0	0	0	0Equatorial Guinea	GEQ	GNQ	0	0	0	0Eritrea	ERI	ERI	0	0	0	0Estonia	EST	EST	1	1	0	2Ethiopia	ETH	ETH	3	1	3	7Fiji	FIJ	FJI	0	0	0	0Finland	FIN	FIN	2	1	0	3France	FRA	FRA	12	11	11	34French Polynesia			0	0	0	0Gabon	GAB	GAB	0	1	0	1Gambia	GAM	GMB	0	0	0	0Georgia	GEO	GEO	3	3	1	7Germany	GER	DEU	14	19	11	44Ghana	GHA	GHA	0	0	0	0Greece	GRE	GRC	2	0	0	2Grenada	GRN	GRD	0	0	1	1Guam			0	0	0	0Guatemala	GUA	GTM	0	1	0	1Guinea	GUI	GIN	0	0	0	0Guinea-Bissau	GBS	GNB	0	0	0	0Guyana	GUY	GUY	0	0	0	0Haiti	HAI	HTI	0	0	0	0Honduras	HON	HND	0	0	0	0Hong Kong			0	0	0	0Hungary	HUN	HUN	5	4	8	17Iceland	ISL	ISL	0	0	0	0India	IND	IND	4	2	0	6Indonesia	INA	IDN	1	1	0	2Iran			0	0	0	0Iraq	IRQ	IRQ	0	0	0	0Ireland	IRL	IRL	3	1	1	5Israel	ISR	ISR	0	0	0	0Italy	ITA	ITA	11	9	8	28Ivory Coast			0	0	0	0Jamaica	JAM	JAM	4	4	4	12Japan	JPN	JPN	17	14	7	38Jordan	JOR	JOR	0	0	0	0Kazakhstan	KAZ	KAZ	5	1	7	13Kenya	KEN	KEN	5	4	2	11Kiribati	KIR	KIR	0	0	0	0Kuwait	KUW	KWT	1	0	0	1Kyrgyzstan	KGZ	KGZ	0	0	0	0Laos			0	0	0	0Latvia	LAT	LVA	1	0	1	2Lebanon	LIB	LBN	0	0	0	0Lesotho	LES	LSO	0	0	0	0Liberia	LBR	LBR	0	0	0	0Libya			0	0	0	0Liechtenstein			0	0	0	0Lithuania	LTU	LTU	2	1	2	5Luxembourg	LUX	LUX	0	0	0	0Macau			0	0	0	0Macedonia	MKD	MKD	0	0	0	0Madagascar	MAD	MDG	0	0	0	0Malawi	MAW	MWI	0	0	0	0Malaysia	MAS	MYS	1	1	0	2Maldives	MDV	MDV	0	0	0	0Mali	MLI	MLI	0	0	0	0Malta	MLT	MLT	0	0	0	0Marshall Islands	MHL	MHL	0	0	0	0Mauritania	MTN	MRT	0	0	0	0Mauritius	MRI	MUS	0	0	0	0Mexico	MEX	MEX	3	3	1	7Micronesia			0	0	0	0Moldova	MDA	MDA	2	0	0	2Monaco	MON	MCO	0	0	0	0Mongolia	MGL	MNG	3	2	0	5Montenegro	MNE	MNE	0	1	0	1Morocco	MAR	MAR	1	0	0	1Mozambique	MOZ	MOZ	0	0	0	0Myanmar			0	0	0	0Namibia	NAM	NAM	0	0	0	0Nauru	NRU	NRU	0	0	0	0Nepal	NEP	NPL	0	0	0	0Netherlands	NED	NLD	8	6	6	20Netherlands Antilles			0	0	0	0New Caledonia			0	0	0	0New Zealand	NZL	NZL	5	2	6	13Nicaragua	NCA	NIC	0	0	0	0Niger	NIG	NER	0	0	0	0Nigeria	NGR	NGA	0	0	0	0Niue			0	0	0	0North Korea			0	0	0	0Norway	NOR	NOR	1	1	2	4Oman	OMA	OMN	0	0	0	0Pakistan	PAK	PAK	0	0	0	0Palau	PLW	PLW	0	0	0	0Palestine			0	0	0	0Panama	PAN	PAN	0	0	0	0Papua New Guinea	PNG	PNG	0	0	0	0Paraguay	PAR	PRY	0	0	0	0Peru	PER	PER	0	0	0	0Philippines	PHI	PHL	0	0	0	0Poland	POL	POL	6	2	2	10Portugal	POR	PRT	0	1	0	1Puerto Rico	PUR	PRI	1	1	0	2Qatar	QAT	QAT	2	0	0	2Romania	ROU	ROU	2	5	2	9Russia	RUS	RUS	32	26	24	82Rwanda	RWA	RWA	0	0	0	0Saint Kitts and Nevis	SKN	KNA	0	0	0	0Saint Lucia	LCA	LCA	0	0	0	0Saint Vincent and the Grenadines	VIN	VCT	0	0	0	0Samoa	SAM	WSM	0	0	0	0San Marino	SMR	SMR	0	0	0	0Sao Tome and Principe	STP	STP	0	0	0	0Saudi Arabia	KSA	SAU	1	0	0	1Senegal	SEN	SEN	0	0	0	0Serbia	SRB	SRB	2	1	1	4Seychelles	SEY	SYC	0	0	0	0Sierra Leone	SLE	SLE	0	0	0	0Singapore	SIN	SGP	2	0	0	2Slovakia	SVK	SVK	3	1	0	4Slovenia	SLO	SVN	2	1	1	4Solomon Islands	SOL	SLB	0	0	0	0Somalia	SOM	SOM	0	0	0	0South Africa	RSA	ZAF	1	2	3	6South Korea			0	0	0	0Spain	ESP	ESP	4	10	3	17Sri Lanka	SRI	LKA	0	0	0	0Sudan	SUD	SDN	0	0	0	0Surinam			0	0	0	0Swaziland	SWZ	SWZ	0	0	0	0Sweden	SWE	SWE	3	4	1	8Switzerland	SUI	CHE	0	2	2	4Syria	SYR	SYR	0	0	0	0Taiwan	TPE	TWN	1	1	0	2Tajikistan	TJK	TJK	1	0	0	1Tanzania	TAN	TZA	0	0	0	0Thailand	THA	THA	1	2	0	3Timor-Leste			0	0	0	0Togo	TOG	TGO	0	0	0	0Tonga	TGA	TON	0	0	0	0Trinidad and Tobago	TRI	TTO	3	0	1	4Tunisia	TUN	TUN	1	1	1	3Turkey	TUR	TUR	1	2	2	5Turkmenistan	TKM	TKM	0	0	0	0Tuvalu	TUV	TUV	0	0	0	0Uganda	UGA	UGA	0	0	1	1UK			0	0	0	0Ukraine	UKR	UKR	9	5	6	20United Arab Emirates	UAE	ARE	0	0	0	0Uruguay	URU	URY	0	0	0	0US			0	0	0	0Uzbekistan	UZB	UZB	3	0	1	4Vanuatu	VAN	VUT	0	0	0	0Venezuela	VEN	VEN	0	0	1	1Vietnam	VIE	VNM	0	0	0	0Virgin Islands			0	0	0	0West Bank and Gaza			0	0	0	0Yemen	YEM	YEM	0	0	0	0Zambia	ZAM	ZMB	0	0	0	0Zimbabwe	ZIM	ZWE	0	0	0	0
