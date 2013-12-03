@@ -27,4 +27,8 @@ public class Main {
 		//frame.pack();
 		frame.setVisible(true);
 	}
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> a095d7fbd0e558e08140b8ea11a471102e1b9a21

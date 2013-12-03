@@ -383,4 +383,8 @@ public class Congress extends JPanel {
 		}
 	}
 
+<<<<<<< HEAD
 } // end of class ScatterPlot
+=======
+} // end of class ScatterPlot
+>>>>>>> a095d7fbd0e558e08140b8ea11a471102e1b9a21

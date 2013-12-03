@@ -241,4 +241,8 @@ public class FisheyeMenu extends Display {
 		}
 	} // end of inner class VerticalLineLayout
 
+<<<<<<< HEAD
 } // end of class FisheyeMenu
+=======
+} // end of class FisheyeMenu
+>>>>>>> a095d7fbd0e558e08140b8ea11a471102e1b9a21
