@@ -16,19 +16,16 @@ public class Main {
 		frame.setSize(1300, 600);
 		frame.setLayout(new FlowLayout());
 
-		JPanel panel = new JPanel(new BorderLayout());
-		panel.add(FisheyeMenu.demo());
-		frame.add(panel);
+		JPanel congressPanel = new JPanel(new BorderLayout());
+		congressPanel.add(CongressIE.demoOnly());
 
-		JPanel panel2 = new JPanel(new BorderLayout());
-		panel2.add(Congress.demoOnly());
-		frame.add(panel2);
+		JPanel femPanel = new JPanel(new BorderLayout());
+		femPanel.add(FisheyeMenu.demo(congressPanel));
+
+		frame.add(femPanel);
+		frame.add(congressPanel);
 
 		//frame.pack();
 		frame.setVisible(true);
 	}
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> a095d7fbd0e558e08140b8ea11a471102e1b9a21
