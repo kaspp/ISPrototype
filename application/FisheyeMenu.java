@@ -188,11 +188,11 @@ public class FisheyeMenu extends Display {
 					}
 					else if (label.equals("Gender Composition")) {
 						jf.setTitle("W H O |  G E N D E R  C O M P O S I T I O N");
-						jp.add(CongressGender.demoOnly());
+						jp.add(CongressGC.demoOnly());
 					}
 					else if (label.equals("Country Medals")) {
 						jf.setTitle("W H O |  C O U N T R Y  M E D A L S");
-						/*jp.add(CongressGender.demoOnly());*/
+						jp.add(CongressCM.demoOnly());
 					}
 					else if (label.equals("Income vs Expenditure")) {
 						jf.setTitle("W H O |  I N C O M E   V S   E X P E D I T U R E");
@@ -200,7 +200,7 @@ public class FisheyeMenu extends Display {
 					}
 					else if (label.equals("Life Expectancy")) {
 						jf.setTitle("W H O |  L I F E  E X P E C T A N C Y");
-						/*jp.add(CongressIE.demoOnly());*/
+						jp.add(CongressLE.demoOnly());
 					}
 					else if (label.equals("Physician Density")) {
 						jf.setTitle("W H O |  P H Y S I C I A N  D E N S I T Y");
