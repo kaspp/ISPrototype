@@ -15,6 +15,7 @@ import java.util.logging.Logger;
 
 import javax.swing.AbstractAction;
 import javax.swing.BorderFactory;
+import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.SwingUtilities;
 
@@ -156,7 +157,7 @@ public class FisheyeMenu extends Display {
 		f.setVisible(true);*/
 	}
 
-	public static FisheyeMenu demo(final JPanel jp) {
+	public static FisheyeMenu demo(final JFrame jf, final JPanel jp) {
 		// create a new fisheye menu and populate it
 		FisheyeMenu fm = new FisheyeMenu();
 		ArrayList<String> keys = new ArrayList<String>();
@@ -182,9 +183,11 @@ public class FisheyeMenu extends Display {
 					jp.invalidate();
 
 					if (label.equals("Country GDP")) {
+						jf.setTitle("G  D  P  2  0  1  1");
 						jp.add(Congress.demoOnly());
 					}
 					else if (label.equals("Income vs Expenditure")) {
+						jf.setTitle("W H O |  I N C O M E   V S   E X P E D I T U R E");
 						jp.add(CongressIE.demoOnly());
 					}
 

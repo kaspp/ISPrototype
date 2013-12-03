@@ -20,7 +20,7 @@ public class Main {
 		congressPanel.add(CongressIE.demoOnly());
 
 		JPanel femPanel = new JPanel(new BorderLayout());
-		femPanel.add(FisheyeMenu.demo(congressPanel));
+		femPanel.add(FisheyeMenu.demo(frame, congressPanel));
 
 		frame.add(femPanel);
 		frame.add(congressPanel);
