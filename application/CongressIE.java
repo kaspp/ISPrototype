@@ -58,7 +58,7 @@ import prefuse.visual.sort.ItemSorter;
 /**
  * @author <a href="http://jheer.org">jeffrey heer</a>
  */
-public class Congress extends JPanel {
+public class CongressIE extends JPanel {
 
 	public static void main(String[] args) {
 		UILib.setPlatformLookAndFeel();
@@ -73,15 +73,15 @@ public class Congress extends JPanel {
 		Table t = null;
 		try {
 			//change the path here.
-			t = new DelimitedTextTableReader().readTable("WHOCountryGDP.txt"); 
+			t = new DelimitedTextTableReader().readTable("WHOIE.txt"); 
 		} catch ( Exception e ) {
 			e.printStackTrace();
 			System.exit(1);
 		}
 
 		// change the title here.
-		JFrame frame = new JFrame("G  D  P  2  0  1  1");
-		frame.setContentPane(new Congress(t));
+		JFrame frame = new JFrame("W H O |  I N C O M E   V S   E X P E D I T U R E");
+		frame.setContentPane(new CongressIE(t));
 		frame.pack();
 
 		return frame;
@@ -92,14 +92,14 @@ public class Congress extends JPanel {
 		Table t = null;
 		try {
 			//change the path here.
-			t = new DelimitedTextTableReader().readTable("WHOCountryGDP.txt"); 
+			t = new DelimitedTextTableReader().readTable("WHOIE.txt"); 
 		} catch ( Exception e ) {
 			e.printStackTrace();
 			System.exit(1);
 		}
 		// change the title here. 
 		JPanel panel = new JPanel();
-		panel.add(new Congress(t));
+		panel.add(new CongressIE(t));
 
 		return panel;
 	}
@@ -107,8 +107,8 @@ public class Congress extends JPanel {
 	// ------------------------------------------------------------------------
 
 	//this is the main field for the GDP Value
-	private static final String TOTAL_RECEIPTS = "GDP";
-	private static final String RECEIPTS = "GDP";
+	private static final String TOTAL_RECEIPTS = "HealthP";
+	private static final String RECEIPTS = "Total_income";
 
 	private String m_title = "Congress";
 	private String m_totalStr;
@@ -123,7 +123,7 @@ public class Congress extends JPanel {
 	private Rectangle2D m_xlabB = new Rectangle2D.Double();
 	private Rectangle2D m_ylabB = new Rectangle2D.Double();
 
-	public Congress(Table t) {
+	public CongressIE(Table t) {
 		super(new BorderLayout());
 
 		final Visualization vis = new Visualization();
@@ -134,13 +134,13 @@ public class Congress extends JPanel {
 
 		//the minimum amount of GDP to be displayed.
 		Predicate p = (Predicate)
-				ExpressionParser.parse("["+TOTAL_RECEIPTS+"] >= 100000"); 
+				ExpressionParser.parse("["+TOTAL_RECEIPTS+"] >= 10"); 
 		VisualTable vt = vis.addTable(group, t, p);
 
 		//the display on the top right hand corner of the display. Put the name of the column.
 		vt.addColumn("label", "CONCAT(CAP(Country), ' (', "
 				+ "CAP([NOC]), '-', [Country], "
-				+ "') ', ': $', FORMAT([GDP],2))");
+				+ "') ', ': $', FORMAT([Total_income],2))");
 
 
 		vis.setRendererFactory(new RendererFactory() {
@@ -196,7 +196,7 @@ public class Congress extends JPanel {
 		};
 
 		// set the value of this "GDP"
-		DataColorAction color = new DataColorAction(group, "GDP",
+		DataColorAction color = new DataColorAction(group, "Total_income",
 				Constants.ORDINAL, VisualItem.STROKECOLOR, palette);
 
 		//int[] shapes = new int[] { Constants.SHAPE_RECTANGLE, Constants.SHAPE_DIAMOND };
