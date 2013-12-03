@@ -15,7 +15,7 @@ import java.util.logging.Logger;
 
 import javax.swing.AbstractAction;
 import javax.swing.BorderFactory;
-import javax.swing.JFrame;
+import javax.swing.JPanel;
 import javax.swing.SwingUtilities;
 
 import prefuse.Constants;
@@ -146,17 +146,17 @@ public class FisheyeMenu extends Display {
 		// only log warnings
 		Logger.getLogger("prefuse").setLevel(Level.WARNING);
 
-		FisheyeMenu fm = demo();
+		/*FisheyeMenu fm = demo();
 
 		// create and display application window
 		JFrame f = new JFrame("p r e f u s e  |  f i s h e y e");
 		f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		f.getContentPane().add(fm);
 		f.pack();
-		f.setVisible(true);
+		f.setVisible(true);*/
 	}
 
-	public static FisheyeMenu demo() {
+	public static FisheyeMenu demo(final JPanel jp) {
 		// create a new fisheye menu and populate it
 		FisheyeMenu fm = new FisheyeMenu();
 		ArrayList<String> keys = new ArrayList<String>();
@@ -175,6 +175,21 @@ public class FisheyeMenu extends Display {
 				public void actionPerformed(ActionEvent e) {
 					System.out.println("clicked item: "+
 							((VisualItem)e.getSource()).get(LABEL));
+
+					String label = ((VisualItem)e.getSource()).get(LABEL).toString();
+
+					jp.removeAll();
+					jp.invalidate();
+
+					if (label.equals("Country GDP")) {
+						jp.add(Congress.demoOnly());
+					}
+					else if (label.equals("Income vs Expenditure")) {
+						jp.add(CongressIE.demoOnly());
+					}
+
+					jp.revalidate();
+
 					System.out.flush();
 				}
 			});
@@ -239,10 +254,5 @@ public class FisheyeMenu extends Display {
 				}
 			});
 		}
-	} // end of inner class VerticalLineLayout
-
-<<<<<<< HEAD
-} // end of class FisheyeMenu
-=======
-} // end of class FisheyeMenu
->>>>>>> a095d7fbd0e558e08140b8ea11a471102e1b9a21
+	}
+}
