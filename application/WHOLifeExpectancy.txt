@@ -1,0 +1,180 @@
+Country	NOC	ISO	M2012	F2012	Births attended by skilled health personnel (%)	Life expectancy at birth (years) female	Life expectancy at birth (years) male
+Afghanistan	AFG	AFG	5	1	14	43	42
+Albania	ALB	ALB	7	4	100	73	69
+Algeria	ALG	DZA	21	18	95	72	70
+Andorra	AND	AND	4	2	0	85	78
+Angola	ANG	AGO	5	30	45	43	40
+Antigua and Barbuda	ANT	ATG	3	2	100	75	70
+Argentina	ARG	ARG	99	43	99	78	72
+Armenia	ARM	ARM	21	4	98	72	65
+Australia	AUS	AUS	225	188	100	84	79
+Austria	AUT	AUT	39	31	0	83	77
+Azerbaijan	AZE	AZE	39	14	97	66	62
+Bahamas	BAH	BHS	15	11	99	77	71
+Bahrain	BRN	BHR	4	8	99	76	74
+Bangladesh	BAN	BGD	4	1	20	63	63
+Barbados	BAR	BRB	6	0	100	79	72
+Belarus	BLR	BLR	95	77	100	75	63
+Belgium	BEL	BEL	74	44	99	82	77
+Belize	BIZ	BLZ	2	1	91	74	65
+Benin	BEN	BEN	4	1	74	55	54
+Bermuda	BER	BMU	5	3	0	0	0
+Bolivia	BOL	BOL	3	2	61	67	64
+Bosnia and Herzegovina	BIH	BIH	4	2	100	78	72
+Botswana	BOT	BWA	3	1	99	52	51
+Brazil	BRA	BRA	138	128	97	75	68
+Bulgaria	BUL	BGR	37	26	99	76	69
+Burkina Faso	BUR	BFA	2	3	54	49	46
+Burundi	BDI	BDI	2	4	34	50	48
+Cambodia	CAM	KHM	3	3	44	65	59
+Cameroon	CMR	CMR	10	27	63	52	50
+Canada	CAN	CAN	121	158	100	83	78
+Cape Verde	CPV	CPV	1	2	89	72	66
+Central African Republic	CAF	CAF	3	3	54	48	48
+Chad	CHA	TCD	1	2	14	47	46
+Chile	CHI	CHL	21	14	100	81	75
+China	CHN	CHN	163	208	98	75	72
+Colombia	COL	COL	46	63	96	78	71
+Comoros	COM	COM	1	2	62	67	62
+Cook Islands		COK	3	5	100	75	71
+Costa Rica	COK	CRI	8	3	94	80	76
+Croatia		HRV	65	45	100	79	72
+Cuba	CRO	CUB	65	45	100	80	76
+Cyprus	CUB	CYP	9	4	100	82	79
+Czech Republic	CYP	CZE	68	65	100	80	73
+Denmark	DEN	DNK	65	50	0	81	76
+Djibouti	DJI	DJI	3	3	93	58	53
+Dominica	DMA	DMA	1	1	99	76	72
+Dominican Republic	DOM	DOM	15	20	96	74	66
+Ecuador	ECU	ECU	23	13	80	76	70
+Egypt	EGY	EGY	81	35	74	70	66
+El Salvador	ESA	SLV	5	5	69	75	67
+Equatorial Guinea	GEQ	GNQ	1	1	63	47	46
+Eritrea	ERI	ERI	11	1	28	65	61
+Estonia	EST	EST	24	9	100	79	67
+Ethiopia	ETH	ETH	18	17	6	58	55
+Fiji	FIJ	FJI	6	3	99	72	66
+Finland	FIN	FIN	28	28	100	83	76
+France	FRA	FRA	187	148	99	84	77
+Gabon	GAB	GAB	26	2	86	60	56
+Gambia	GAM	GMB	1	1	57	61	57
+Georgia	GEO	GEO	29	6	92	74	66
+Germany	GER	DEU	219	176	100	82	77
+Ghana	GHA	GHA	6	3	50	58	56
+Greece	GRE	GRC	66	39	0	82	77
+Grenada	GRN	GRD	6	4	100	70	66
+Guatemala	GUA	GTM	12	7	41	71	65
+Guinea	GUI	GIN	2	1	38	55	51
+Guinea-Bissau	GBS	GNB	2	2	39	51	46
+Guyana	GUY	GUY	4	2	94	66	63
+Haiti	HAI	HTI	3	2	26	63	59
+Honduras	HON	HND	28	3	67	73	67
+Hungary	HUN	HUN	95	63	100	78	69
+Iceland	ISL	ISL	22	6	0	83	79
+India	IND	IND	60	23	47	64	62
+Indonesia	INA	IDN	13	9	66	69	66
+Iraq	IRQ	IRQ	5	3	89	67	48
+Ireland	IRL	IRL	36	30	100	82	77
+Israel	ISR	ISR	20	18	0	82	79
+Italy	ITA	ITA	159	122	99	84	78
+Jamaica	JAM	JAM	25	25	97	75	69
+Japan	JPN	JPN	141	162	100	86	79
+Jordan	JOR	JOR	5	4	100	74	69
+Kazakhstan	KAZ	KAZ	74	41	100	70	59
+Kenya	KEN	KEN	29	21	42	55	52
+Kiribati	KIR	KIR	2	1	90	68	63
+Kuwait		KWT	8	2	100	79	77
+Kyrgyzstan		KGZ	11	3	98	70	63
+Latvia	KGZ	LVA	32	14	100	76	65
+Lebanon		LBN	3	7	98	72	68
+Lesotho	LAT	LSO	2	2	55	44	40
+Liberia	LIB	LBR	2	2	51	46	43
+Lithuania		LTU	39	23	100	77	65
+Luxembourg		LUX	5	4	100	83	77
+Macedonia	LUX	MKD	2	2	98	76	71
+Madagascar		MDG	3	4	45	61	57
+Malawi	MKD	MWI	1	2	54	51	49
+Malaysia	MAD	MYS	17	13	100	74	69
+Maldives	MAW	MDV	3	2	84	73	72
+Mali	MAS	MLI	4	2	41	48	45
+Malta	MDV	MLT	3	2	100	81	77
+Marshall Islands	MLI	MHL	2	2	95	64	61
+Mauritania	MLT	MRT	1	1	53	60	55
+Mauritius	MHL	MUS	4	7	99	76	69
+Mexico	MTN	MEX	68	38	94	77	72
+Moldova	MEX	MDA	12	10	100	72	64
+Monaco		MCO	5	1	0	85	78
+Mongolia	MDA	MNG	16	13	99	70	62
+Montenegro	MON	MNE	18	16	99	76	72
+Morocco	MGL	MAR	54	18	63	74	70
+Mozambique	MNE	MOZ	4	2	48	51	49
+Namibia	MOZ	NAM	5	4	76	63	59
+Nauru		NRU	2	0	100	64	59
+Nepal	NAM	NPL	2	3	19	63	62
+Netherlands	NRU	NLD	98	84	100	82	78
+New Zealand		NZL	103	93	95	82	78
+Nicaragua		NIC	3	3	67	74	68
+Niger	NZL	NER	4	2	18	43	42
+Nigeria	NCA	NGA	30	23	35	49	48
+Norway		NOR	33	32	0	83	78
+Oman	NOR	OMN	3	1	98	77	72
+Pakistan	OMA	PAK	21	2	54	63	62
+Palau	PAK	PLW	2	3	100	71	68
+Panama		PAN	6	2	91	79	74
+Papua New Guinea	PAN	PNG	4	4	38	64	60
+Paraguay	PNG	PRY	4	4	100	78	72
+Peru	PAR	PER	9	7	73	75	71
+Philippines	PER	PHL	7	4	60	71	64
+Poland	PHI	POL	130	87	100	80	71
+Portugal	POL	PRT	46	34	100	82	75
+Puerto Rico	POR	PRI	19	6	0	0	0
+Qatar	PUR	QAT	8	4	100	77	77
+Romania	QAT	ROU	54	49	99	76	69
+Russia	ROU	RUS	208	227	100	73	60
+Rwanda	RUS	RWA	5	2	28	53	51
+Saint Kitts and Nevis	RWA	KNA	6	1	100	73	70
+Saint Lucia	SKN	LCA	1	3	100	78	72
+Saint Vincent and the Grenadines	LCA	VCT	2	1	100	74	66
+Samoa	VIN	WSM	5	3	100	70	66
+San Marino	SAM	SMR	1	3	0	83	80
+Sao Tome and Principe	SMR	STP	1	1	81	63	60
+Saudi Arabia	STP	SAU	17	2	96	73	68
+Senegal	KSA	SEN	28	7	52	61	57
+Serbia	SEN	SRB	80	36	99	76	71
+Seychelles	SRB	SYC	4	2	0	77	68
+Sierra Leone	SEY	SLE	1	1	43	42	39
+Singapore	SLE	SGP	8	15	100	83	78
+Slovakia	SIN	SVK	26	20	100	78	70
+Slovenia	SVK	SVN	28	40	100	82	74
+Solomon Islands	SLO	SLB	2	2	43	68	65
+Somalia	SOL	SOM	1	1	33	56	54
+South Africa	SOM	ZAF	69	64	92	53	50
+Spain	ESP	ESP	175	114	0	84	78
+Sri Lanka	SRI	LKA	4	3	97	76	69
+Sudan	SUD	SDN	4	2	49	61	59
+Swaziland	SWZ	SWZ	2	1	74	43	41
+Sweden	SWE	SWE	56	84	0	83	79
+Switzerland	SUI	CHE	76	30	100	84	79
+Syria	SYR	SYR	6	4	93	75	70
+Taiwan	TPE	TWN	19	25	0	0	0
+Tajikistan	TJK	TJK	13	3	83	66	63
+Tanzania	TAN	TZA	5	2	43	51	50
+Thailand	THA	THA	19	18	97	75	69
+Togo	TOG	TGO	4	2	62	60	55
+Tonga	TGA	TON	2	1	99	69	73
+Trinidad and Tobago	TRI	TTO	21	10	98	72	66
+Tunisia	TUN	TUN	64	20	90	75	70
+Turkey	TUR	TUR	48	66	83	75	71
+Turkmenistan	TKM	TKM	7	3	100	67	60
+Tuvalu	TUV	TUV	2	1	100	65	64
+Uganda	UGA	UGA	11	5	42	51	49
+Ukraine	UAE	UKR	121	115	100	73	61
+United Arab Emirates		ARE	28	2	100	80	77
+Uruguay		URY	30	3	100	79	72
+Uzbekistan	UZB	UZB	36	18	100	70	65
+Vanuatu	VAN	VUT	3	2	92	70	67
+Venezuela	VEN	VEN	42	27	95	78	71
+Vietnam	VIE	VNM	6	12	88	75	69
+Yemen	YEM	YEM	3	1	20	62	59
+Zambia	ZAM	ZMB	5	2	43	43	42
+Zimbabwe	ZIM	ZWE	4	3	69	43	44

@@ -1,0 +1,181 @@
+Country	NOC	ISO	TeamSize	M2012	F2012
+Afghanistan	AFG	AFG	6	5	1
+Albania	ALB	ALB	11	7	4
+Algeria	ALG	DZA	39	21	18
+Andorra	AND	AND	6	4	2
+Angola	ANG	AGO	35	5	30
+Antigua and Barbuda	ANT	ATG	5	3	2
+Argentina	ARG	ARG	142	99	43
+Armenia	ARM	ARM	25	21	4
+Australia	AUS	AUS	413	225	188
+Austria	AUT	AUT	70	39	31
+Azerbaijan	AZE	AZE	53	39	14
+Bahamas	BAH	BHS	26	15	11
+Bahrain	BRN	BHR	12	4	8
+Bangladesh	BAN	BGD	5	4	1
+Barbados	BAR	BRB	6	6	0
+Belarus	BLR	BLR	172	95	77
+Belgium	BEL	BEL	118	74	44
+Belize	BIZ	BLZ	3	2	1
+Benin	BEN	BEN	5	4	1
+Bermuda	BER	BMU	8	5	3
+Bhutan	BHU	BTN	2	0	2
+Bolivia	BOL	BOL	5	3	2
+Bosnia and Herzegovina	BIH	BIH	6	4	2
+Botswana	BOT	BWA	4	3	1
+Brazil	BRA	BRA	266	138	128
+Bulgaria	BUL	BGR	63	37	26
+Burkina Faso	BUR	BFA	5	2	3
+Burundi	BDI	BDI	6	2	4
+Cambodia	CAM	KHM	6	3	3
+Cameroon	CMR	CMR	37	10	27
+Canada	CAN	CAN	279	121	158
+Cape Verde	CPV	CPV	3	1	2
+Central African Republic	CAF	CAF	6	3	3
+Chad	CHA	TCD	3	1	2
+Chile	CHI	CHL	35	21	14
+China	CHN	CHN	371	163	208
+Colombia	COL	COL	109	46	63
+Comoros	COM	COM	3	1	2
+Cook Islands	COK	COK	8	3	5
+Costa Rica	CRC	CRI	11	8	3
+Croatia	CRO	HRV	110	65	45
+Cuba	CUB	CUB	110	65	45
+Cyprus	CYP	CYP	13	9	4
+Czech Republic	CZE	CZE	133	68	65
+Denmark	DEN	DNK	115	65	50
+Djibouti	DJI	DJI	6	3	3
+Dominica	DMA	DMA	2	1	1
+Dominican Republic	DOM	DOM	35	15	20
+Ecuador	ECU	ECU	36	23	13
+Egypt	EGY	EGY	116	81	35
+El Salvador	ESA	SLV	10	5	5
+Equatorial Guinea	GEQ	GNQ	2	1	1
+Eritrea	ERI	ERI	12	11	1
+Estonia	EST	EST	33	24	9
+Ethiopia	ETH	ETH	35	18	17
+Fiji	FIJ	FJI	9	6	3
+Finland	FIN	FIN	56	28	28
+France	FRA	FRA	335	187	148
+Gabon	GAB	GAB	28	26	2
+Gambia	GAM	GMB	2	1	1
+Georgia	GEO	GEO	35	29	6
+Germany	GER	DEU	395	219	176
+Ghana	GHA	GHA	9	6	3
+Greece	GRE	GRC	105	66	39
+Grenada	GRN	GRD	10	6	4
+Guatemala	GUA	GTM	19	12	7
+Guinea	GUI	GIN	3	2	1
+Guinea-Bissau	GBS	GNB	4	2	2
+Guyana	GUY	GUY	6	4	2
+Haiti	HAI	HTI	5	3	2
+Honduras	HON	HND	31	28	3
+Hungary	HUN	HUN	158	95	63
+Iceland	ISL	ISL	28	22	6
+India	IND	IND	83	60	23
+Indonesia	INA	IDN	22	13	9
+Iraq	IRQ	IRQ	8	5	3
+Ireland	IRL	IRL	66	36	30
+Israel	ISR	ISR	38	20	18
+Italy	ITA	ITA	281	159	122
+Jamaica	JAM	JAM	50	25	25
+Japan	JPN	JPN	303	141	162
+Jordan	JOR	JOR	9	5	4
+Kazakhstan	KAZ	KAZ	115	74	41
+Kenya	KEN	KEN	50	29	21
+Kiribati	KIR	KIR	3	2	1
+Kuwait	KUW	KWT	10	8	2
+Kyrgyzstan	KGZ	KGZ	14	11	3
+Latvia	LAT	LVA	46	32	14
+Lebanon	LIB	LBN	10	3	7
+Lesotho	LES	LSO	4	2	2
+Liberia	LBR	LBR	4	2	2
+Lithuania	LTU	LTU	62	39	23
+Luxembourg	LUX	LUX	9	5	4
+Macedonia	MKD	MKD	4	2	2
+Madagascar	MAD	MDG	7	3	4
+Malawi	MAW	MWI	3	1	2
+Malaysia	MAS	MYS	30	17	13
+Maldives	MDV	MDV	5	3	2
+Mali	MLI	MLI	6	4	2
+Malta	MLT	MLT	5	3	2
+Marshall Islands	MHL	MHL	4	2	2
+Mauritania	MTN	MRT	2	1	1
+Mauritius	MRI	MUS	11	4	7
+Mexico	MEX	MEX	106	68	38
+Moldova	MDA	MDA	22	12	10
+Monaco	MON	MCO	6	5	1
+Mongolia	MGL	MNG	29	16	13
+Montenegro	MNE	MNE	34	18	16
+Morocco	MAR	MAR	72	54	18
+Mozambique	MOZ	MOZ	6	4	2
+Namibia	NAM	NAM	9	5	4
+Nauru	NRU	NRU	2	2	0
+Nepal	NEP	NPL	5	2	3
+Netherlands	NED	NLD	182	98	84
+New Zealand	NZL	NZL	196	103	93
+Nicaragua	NCA	NIC	6	3	3
+Niger	NIG	NER	6	4	2
+Nigeria	NGR	NGA	53	30	23
+Norway	NOR	NOR	65	33	32
+Oman	OMA	OMN	4	3	1
+Pakistan	PAK	PAK	23	21	2
+Palau	PLW	PLW	5	2	3
+Panama	PAN	PAN	8	6	2
+Papua New Guinea	PNG	PNG	8	4	4
+Paraguay	PAR	PRY	8	4	4
+Peru	PER	PER	16	9	7
+Philippines	PHI	PHL	11	7	4
+Poland	POL	POL	217	130	87
+Portugal	POR	PRT	80	46	34
+Puerto Rico	PUR	PRI	25	19	6
+Qatar	QAT	QAT	12	8	4
+Romania	ROU	ROU	103	54	49
+Russia	RUS	RUS	435	208	227
+Rwanda	RWA	RWA	7	5	2
+Saint Kitts and Nevis	SKN	KNA	7	6	1
+Saint Lucia	LCA	LCA	4	1	3
+Saint Vincent and the Grenadines	VIN	VCT	3	2	1
+Samoa	SAM	WSM	8	5	3
+San Marino	SMR	SMR	4	1	3
+Sao Tome and Principe	STP	STP	2	1	1
+Saudi Arabia	KSA	SAU	19	17	2
+Senegal	SEN	SEN	35	28	7
+Serbia	SRB	SRB	116	80	36
+Seychelles	SEY	SYC	6	4	2
+Sierra Leone	SLE	SLE	2	1	1
+Singapore	SIN	SGP	23	8	15
+Slovakia	SVK	SVK	46	26	20
+Slovenia	SLO	SVN	68	28	40
+Solomon Islands	SOL	SLB	4	2	2
+Somalia	SOM	SOM	2	1	1
+South Africa	RSA	ZAF	133	69	64
+Spain	ESP	ESP	289	175	114
+Sri Lanka	SRI	LKA	7	4	3
+Sudan	SUD	SDN	6	4	2
+Swaziland	SWZ	SWZ	3	2	1
+Sweden	SWE	SWE	140	56	84
+Switzerland	SUI	CHE	106	76	30
+Syria	SYR	SYR	10	6	4
+Taiwan	TPE	TWN	44	19	25
+Tajikistan	TJK	TJK	16	13	3
+Tanzania	TAN	TZA	7	5	2
+Thailand	THA	THA	37	19	18
+Togo	TOG	TGO	6	4	2
+Tonga	TGA	TON	3	2	1
+Trinidad and Tobago	TRI	TTO	31	21	10
+Tunisia	TUN	TUN	84	64	20
+Turkey	TUR	TUR	114	48	66
+Turkmenistan	TKM	TKM	10	7	3
+Tuvalu	TUV	TUV	3	2	1
+Uganda	UGA	UGA	16	11	5
+Ukraine	UKR	UKR	236	121	115
+United Arab Emirates	UAE	ARE	30	28	2
+Uruguay	URU	URY	33	30	3
+Uzbekistan	UZB	UZB	54	36	18
+Vanuatu	VAN	VUT	5	3	2
+Venezuela	VEN	VEN	69	42	27
+Vietnam	VIE	VNM	18	6	12
+Yemen	YEM	YEM	4	3	1
+Zambia	ZAM	ZMB	7	5	2
+Zimbabwe	ZIM	ZWE	7	4	3
