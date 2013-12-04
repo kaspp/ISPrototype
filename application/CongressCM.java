@@ -4,7 +4,6 @@ import java.awt.Dimension;
 import java.awt.Insets;
 import java.awt.event.ComponentAdapter;
 import java.awt.event.ComponentEvent;
-import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.awt.geom.Rectangle2D;
 import java.text.NumberFormat;
@@ -47,7 +46,6 @@ import prefuse.util.ColorLib;
 import prefuse.util.FontLib;
 import prefuse.util.UpdateListener;
 import prefuse.util.ui.JFastLabel;
-import prefuse.util.ui.JRangeSlider;
 import prefuse.util.ui.JSearchPanel;
 import prefuse.util.ui.UILib;
 import prefuse.visual.VisualItem;
@@ -203,7 +201,7 @@ public class CongressCM extends JPanel {
 
 		// set the value of this "GDP"
 		//
-		DataColorAction colorTotalMedals = new DataColorAction(group, "TotalMedals",
+		DataColorAction color = new DataColorAction(group, "TotalMedals",
 				Constants.ORDINAL, VisualItem.STROKECOLOR, palette);
 		//
 
@@ -215,7 +213,7 @@ public class CongressCM extends JPanel {
 		ActionList draw = new ActionList();
 		draw.add(cntr);
 		//
-		draw.add(colorTotalMedals);
+		draw.add(color);
 		//
 		//draw.add(shape);
 		draw.add(xaxis);
@@ -254,7 +252,7 @@ public class CongressCM extends JPanel {
 			}
 		});
 		m_display.setBorder(BorderFactory.createEmptyBorder(10,10,10,10));
-		m_display.setSize(700,450);
+		m_display.setSize(715,450);
 		m_display.setHighQuality(true);
 		m_display.addComponentListener(new ComponentAdapter() {
 			public void componentResized(ComponentEvent e) {
@@ -322,7 +320,7 @@ public class CongressCM extends JPanel {
 		//radioBox.add(yearsQ.createRadioGroup());
 		radioBox.add(Box.createHorizontalStrut(16));
 
-		JRangeSlider slider = receiptsQ.createVerticalRangeSlider();
+		/*JRangeSlider slider = receiptsQ.createVerticalRangeSlider();
 		slider.setThumbColor(null);
 		slider.setMinExtent(150000);
 		slider.addMouseListener(new MouseAdapter() {
@@ -333,17 +331,17 @@ public class CongressCM extends JPanel {
 				m_display.setHighQuality(true);
 				m_display.repaint();
 			}
-		});
+		});*/
 
 		vis.run("draw");
 		vis.run("xlabels");
 
 		add(infoBox, BorderLayout.NORTH);
 		add(m_display, BorderLayout.CENTER);
-		add(slider, BorderLayout.EAST);
+		//add(slider, BorderLayout.EAST);
 		add(radioBox, BorderLayout.SOUTH);
 		UILib.setColor(this, ColorLib.getColor(255,255,255), Color.GRAY);
-		slider.setForeground(Color.LIGHT_GRAY);
+		//slider.setForeground(Color.LIGHT_GRAY);
 		UILib.setFont(radioBox, FontLib.getFont("Tahoma", 15));
 		m_details.setFont(FontLib.getFont("Tahoma", 18));
 		m_total.setFont(FontLib.getFont("Tahoma", 16));

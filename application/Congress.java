@@ -140,7 +140,7 @@ public class Congress extends JPanel {
 		//the display on the top right hand corner of the display. Put the name of the column.
 		vt.addColumn("label", "CONCAT(CAP(Country), ' (', "
 				+ "CAP([NOC]), '-', [Country], "
-				+ "') ', ': $', FORMAT([GDP]/1000,2))");
+				+ "') ', ': $', [GDP])");
 
 
 		vis.setRendererFactory(new RendererFactory() {
@@ -376,8 +376,8 @@ public class Congress extends JPanel {
 			if ( count == 1 ) {
 				m_totalStr = item.getString("label");
 			} else {
-				m_totalStr = count + " Candidates receiving " +
-						NumberFormat.getCurrencyInstance().format(total);
+				m_totalStr = count + " Candidates receiving "/* +
+						NumberFormat.getCurrencyInstance().format(total)*/;
 			}
 			m_total.setText(m_totalStr);
 		}
