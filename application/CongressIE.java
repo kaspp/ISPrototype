@@ -110,7 +110,7 @@ public class CongressIE extends JPanel {
 	private static final String TOTAL_RECEIPTS = "HealthP";
 	private static final String RECEIPTS = "Total_income";
 
-	private String m_title = "Congress";
+	//private String m_title = "Congress";
 	private String m_totalStr;
 	private double m_totalMoney = 1000000000;
 	private int m_totalPeople = 10000;
@@ -140,7 +140,7 @@ public class CongressIE extends JPanel {
 		//the display on the top right hand corner of the display. Put the name of the column.
 		vt.addColumn("label", "CONCAT(CAP(Country), ' (', "
 				+ "CAP([NOC]), '-', [Country], "
-				+ "') ', ': $', FORMAT([Total_income],2))");
+				+ "') ', ': ', [HealthP], '%, $', FORMAT([Total_income],2))");
 
 
 		vis.setRendererFactory(new RendererFactory() {
@@ -176,7 +176,7 @@ public class CongressIE extends JPanel {
 				Constants.Y_AXIS, VisiblePredicate.TRUE);
 		//yaxis.setScale(Constants.LOG_SCALE);
 		yaxis.setRangeModel(receiptsQ.getModel());
-		receiptsQ.getNumberModel().setValueRange(0,65000000,0,65000000);
+		receiptsQ.getNumberModel().setValueRange(0,2000000,0,2000000);
 
 		xaxis.setLayoutBounds(m_dataB);
 		yaxis.setLayoutBounds(m_dataB);
@@ -186,7 +186,7 @@ public class CongressIE extends JPanel {
 		nf.setMaximumFractionDigits(0);
 		ylabels.setNumberFormat(nf);
 
-		AxisLabelLayout xlabels = new AxisLabelLayout("xlab", xaxis, m_xlabB, 15);
+		AxisLabelLayout xlabels = new AxisLabelLayout("xlab", xaxis, m_xlabB, 30);
 		vis.putAction("xlabels", xlabels);
 
 		// dems = blue, reps = red, other = gray
@@ -253,7 +253,7 @@ public class CongressIE extends JPanel {
 		});
 		displayLayout();
 
-		m_details = new JFastLabel(m_title);
+		m_details = new JFastLabel();
 		m_details.setPreferredSize(new Dimension(75,20));
 		m_details.setVerticalAlignment(SwingConstants.BOTTOM);
 
@@ -300,7 +300,7 @@ public class CongressIE extends JPanel {
 
 		// set up search box
 		JSearchPanel searcher = searchQ.createSearchPanel();
-		searcher.setLabelText("Candidate: ");
+		searcher.setLabelText("Search: ");
 		searcher.setBorder(BorderFactory.createEmptyBorder(5,5,5,0));
 
 		// create dynamic queries

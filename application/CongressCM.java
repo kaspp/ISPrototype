@@ -112,7 +112,7 @@ public class CongressCM extends JPanel {
 	private static final String RECEIPTS = "TotalMedals";
 	//
 
-	private String m_title = "Congress";
+	//private String m_title = "Congress";
 	private String m_totalStr;
 	private double m_totalMoney = 1000000000;
 	private int m_totalPeople = 10000;
@@ -144,7 +144,7 @@ public class CongressCM extends JPanel {
 		vt.addColumn("label", 
 				"CONCAT(CAP(Country), ' (', " 
 						+ "CAP([NOC]), '-', [Country], "
-						+ "') ', '- Total: ', [TotalMedals], ', Bronze: ', [Bronze], ', Silver: ', [Silver], ', Gold: ', [Gold])");
+						+ "') ', '- T: ', [TotalMedals], ', B: ', [Bronze], ', S: ', [Silver], ', G: ', [Gold])");
 		//
 
 		vis.setRendererFactory(new RendererFactory() {
@@ -185,12 +185,14 @@ public class CongressCM extends JPanel {
 		xaxis.setLayoutBounds(m_dataB);
 		yaxis.setLayoutBounds(m_dataB);
 
+		//Might need to change label here
 		AxisLabelLayout ylabels = new AxisLabelLayout("ylab", yaxis, m_ylabB);
-		NumberFormat nf = NumberFormat.getCurrencyInstance();
+		NumberFormat nf = NumberFormat.getInstance();
 		nf.setMaximumFractionDigits(0);
 		ylabels.setNumberFormat(nf);
+		//
 
-		AxisLabelLayout xlabels = new AxisLabelLayout("xlab", xaxis, m_xlabB, 15);
+		AxisLabelLayout xlabels = new AxisLabelLayout("xlab", xaxis, m_xlabB, 30);
 		vis.putAction("xlabels", xlabels);
 
 		// dems = blue, reps = red, other = gray
@@ -201,7 +203,7 @@ public class CongressCM extends JPanel {
 
 		// set the value of this "GDP"
 		//
-		DataColorAction color = new DataColorAction(group, "TotalMedals",
+		DataColorAction colorTotalMedals = new DataColorAction(group, "TotalMedals",
 				Constants.ORDINAL, VisualItem.STROKECOLOR, palette);
 		//
 
@@ -212,7 +214,9 @@ public class CongressCM extends JPanel {
 
 		ActionList draw = new ActionList();
 		draw.add(cntr);
-		draw.add(color);
+		//
+		draw.add(colorTotalMedals);
+		//
 		//draw.add(shape);
 		draw.add(xaxis);
 		draw.add(yaxis);
@@ -259,7 +263,7 @@ public class CongressCM extends JPanel {
 		});
 		displayLayout();
 
-		m_details = new JFastLabel(m_title);
+		m_details = new JFastLabel();
 		m_details.setPreferredSize(new Dimension(75,20));
 		m_details.setVerticalAlignment(SwingConstants.BOTTOM);
 
@@ -306,7 +310,7 @@ public class CongressCM extends JPanel {
 
 		// set up search box
 		JSearchPanel searcher = searchQ.createSearchPanel();
-		searcher.setLabelText("Candidate: ");
+		searcher.setLabelText("Search: ");
 		searcher.setBorder(BorderFactory.createEmptyBorder(5,5,5,0));
 
 		// create dynamic queries
@@ -389,5 +393,4 @@ public class CongressCM extends JPanel {
 			m_total.setText(m_totalStr);
 		}
 	}
-
-} // end of class ScatterPlot
+}

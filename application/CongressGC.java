@@ -112,7 +112,7 @@ public class CongressGC extends JPanel {
 	private static final String RECEIPTS = "TeamSize";
 	//
 
-	private String m_title = "Congress";
+	//private String m_title = "Congress";
 	private String m_totalStr;
 	private double m_totalMoney = 1000000000;
 	private int m_totalPeople = 10000;
@@ -186,11 +186,11 @@ public class CongressGC extends JPanel {
 		yaxis.setLayoutBounds(m_dataB);
 
 		AxisLabelLayout ylabels = new AxisLabelLayout("ylab", yaxis, m_ylabB);
-		NumberFormat nf = NumberFormat.getCurrencyInstance();
+		NumberFormat nf = NumberFormat.getInstance();
 		nf.setMaximumFractionDigits(0);
 		ylabels.setNumberFormat(nf);
 
-		AxisLabelLayout xlabels = new AxisLabelLayout("xlab", xaxis, m_xlabB, 15);
+		AxisLabelLayout xlabels = new AxisLabelLayout("xlab", xaxis, m_xlabB, 30);
 		vis.putAction("xlabels", xlabels);
 
 		// dems = blue, reps = red, other = gray
@@ -259,7 +259,7 @@ public class CongressGC extends JPanel {
 		});
 		displayLayout();
 
-		m_details = new JFastLabel(m_title);
+		m_details = new JFastLabel();
 		m_details.setPreferredSize(new Dimension(75,20));
 		m_details.setVerticalAlignment(SwingConstants.BOTTOM);
 
@@ -306,7 +306,7 @@ public class CongressGC extends JPanel {
 
 		// set up search box
 		JSearchPanel searcher = searchQ.createSearchPanel();
-		searcher.setLabelText("Candidate: ");
+		searcher.setLabelText("Search: ");
 		searcher.setBorder(BorderFactory.createEmptyBorder(5,5,5,0));
 
 		// create dynamic queries

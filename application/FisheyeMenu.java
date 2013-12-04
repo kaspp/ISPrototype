@@ -269,7 +269,7 @@ public class FisheyeMenu extends Display {
 		{
 			SwingUtilities.invokeLater(new Runnable() {
 				public void run() {
-					d.setSize(250, 800);
+					d.setSize(200, 800);
 				}
 			});
 		}
