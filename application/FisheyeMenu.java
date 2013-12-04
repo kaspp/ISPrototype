@@ -166,7 +166,7 @@ public class FisheyeMenu extends Display {
 		keys.add("Country GDP");
 		keys.add("Gender Composition");
 		keys.add("Country Medals");
-		keys.add("Income vs Expenditure");
+		keys.add("Expenditure on Health Services");
 		keys.add("Life Expectancy");
 		keys.add("Healthcare Personnel");
 
@@ -194,8 +194,8 @@ public class FisheyeMenu extends Display {
 						jf.setTitle("W H O |  C O U N T R Y  M E D A L S");
 						jp.add(CongressCM.demoOnly());
 					}
-					else if (label.equals("Income vs Expenditure")) {
-						jf.setTitle("W H O |  I N C O M E   V S   E X P E D I T U R E");
+					else if (label.equals("Expenditure on Health Services")) {
+						jf.setTitle("W H O |  E X P E N D I T U R E   O N    H E A L T H   S E R V I C E S");
 						jp.add(CongressIE.demoOnly());
 					}
 					else if (label.equals("Life Expectancy")) {
