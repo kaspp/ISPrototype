@@ -375,7 +375,7 @@ public class CongressCM extends JPanel {
 			Iterator items = m_vis.visibleItems(m_group);
 			while ( items.hasNext() ) {
 				item = (VisualItem)items.next();
-				//total += item.getDouble("Total Receipts");
+				total += item.getDouble("TotalMedals");
 				++count;
 			}
 			m_totalMoney = total;
@@ -384,8 +384,8 @@ public class CongressCM extends JPanel {
 			if ( count == 1 ) {
 				m_totalStr = item.getString("label");
 			} else {
-				m_totalStr = count + " Candidates receiving " +
-						NumberFormat.getCurrencyInstance().format(total);
+				m_totalStr = count + " countries receiving " +
+						NumberFormat.getInstance().format(total) + " medals";
 			}
 
 			m_total.setText(m_totalStr);

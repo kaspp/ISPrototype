@@ -382,8 +382,7 @@ public class CongressHCP extends JPanel {
 			if ( count == 1 ) {
 				m_totalStr = item.getString("label");
 			} else {
-				m_totalStr = count + " Candidates receiving " +
-						NumberFormat.getCurrencyInstance().format(total);
+				m_totalStr = count + " candidates";
 			}
 
 			m_total.setText(m_totalStr);
