@@ -176,7 +176,7 @@ public class Congress extends JPanel {
 				Constants.Y_AXIS, VisiblePredicate.TRUE);
 		//yaxis.setScale(Constants.LOG_SCALE);
 		yaxis.setRangeModel(receiptsQ.getModel());
-		receiptsQ.getNumberModel().setValueRange(0,65000000,0,65000000);
+		receiptsQ.getNumberModel().setValueRange(0,99900000,0,99900000);
 
 		xaxis.setLayoutBounds(m_dataB);
 		yaxis.setLayoutBounds(m_dataB);

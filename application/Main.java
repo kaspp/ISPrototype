@@ -1,5 +1,4 @@
 import java.awt.BorderLayout;
-import java.awt.FlowLayout;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
@@ -13,17 +12,14 @@ public class Main {
 	public static void main(String[] args) {
 		JFrame frame = new JFrame();
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		frame.setSize(1300, 600);
-		frame.setLayout(new FlowLayout());
+		frame.setSize(950, 535);
+		frame.setLayout(new BorderLayout());
 
-		JPanel congressPanel = new JPanel(new BorderLayout());
-		congressPanel.add(CongressIE.demoOnly());
-
-		JPanel femPanel = new JPanel(new BorderLayout());
-		femPanel.add(FisheyeMenu.demo(frame, congressPanel));
-
-		frame.add(femPanel);
-		frame.add(congressPanel);
+		//
+		JPanel congress = CongressIE.demoOnly();
+		frame.add(congress, BorderLayout.LINE_END);
+		frame.add(FisheyeMenu.demo(frame, congress), BorderLayout.LINE_START);
+		//
 
 		//frame.pack();
 		frame.setVisible(true);

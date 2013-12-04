@@ -70,8 +70,8 @@ public class FisheyeMenu extends Display {
 
 	private Table m_items = ITEM_SCHEMA.instantiate(); // table of menu items
 
-	private double m_maxHeight = 500; // maximum menu height in pixels
-	private double m_scale = 10;       // scale parameter for fisheye distortion
+	private double m_maxHeight = 950; // maximum menu height in pixels
+	private double m_scale = 5;       // scale parameter for fisheye distortion
 
 	/**
 	 * Create a new, empty FisheyeMenu.
@@ -89,7 +89,7 @@ public class FisheyeMenu extends Display {
 		m_vis.setRendererFactory(new DefaultRendererFactory(renderer));
 
 		// set up this display
-		setSize(400,1024);
+		setSize(950,1024);
 		setHighQuality(true);
 		setBorder(BorderFactory.createEmptyBorder(10,10,10,5));
 		addControlListener(new ControlAdapter() {
@@ -168,7 +168,7 @@ public class FisheyeMenu extends Display {
 		keys.add("Country Medals");
 		keys.add("Income vs Expenditure");
 		keys.add("Life Expectancy");
-		keys.add("Physician Density");
+		keys.add("Healthcare Personnel");
 
 		for ( String temp : keys) {
 			// add menu items that simply print their label when clicked
@@ -202,9 +202,9 @@ public class FisheyeMenu extends Display {
 						jf.setTitle("W H O |  L I F E  E X P E C T A N C Y");
 						jp.add(CongressLE.demoOnly());
 					}
-					else if (label.equals("Physician Density")) {
-						jf.setTitle("W H O |  P H Y S I C I A N  D E N S I T Y");
-						/*jp.add(CongressIE.demoOnly());*/
+					else if (label.equals("Healthcare Personnel")) {
+						jf.setTitle("W H O |  H E A L T H C A R E  P E R S O N N E L");
+						jp.add(CongressHCP.demoOnly());
 					}
 
 					jp.revalidate();
@@ -269,7 +269,7 @@ public class FisheyeMenu extends Display {
 		{
 			SwingUtilities.invokeLater(new Runnable() {
 				public void run() {
-					d.setSize(250, height);
+					d.setSize(250, 800);
 				}
 			});
 		}
