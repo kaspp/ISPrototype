@@ -144,7 +144,7 @@ public class CongressLE extends JPanel {
 						+ "CAP([NOC]), '-', [Country], "
 						+ "') ', '- ', [Births attended by skilled health personnel (%)], "
 						+ "'% [Male: ', [Life expectancy at birth (years) male], ' year(s), "
-						+ "Female: ', [Life expectancy at birth (years) male], ' year(s)]')");
+						+ "Female: ', [Life expectancy at birth (years) female], ' year(s)]')");
 		//
 
 		vis.setRendererFactory(new RendererFactory() {
